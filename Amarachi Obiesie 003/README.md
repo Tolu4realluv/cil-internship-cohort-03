@@ -12,6 +12,7 @@ A RFC 1918 describes the use of IP address deemed private by IANA (The Internet 
 10.0.0.0 - 10.255.255.255,255 (10/8) prefix
 172.168.0.0 - 172.255.255.255  (172.168/12) prefix
 
+
 ## WEEK 3
 - DAY 2
 1. A scrum is a light-weight agile process tool.  It is a software product development strategy that organizes software developers as a team to reach a common goal; creating a ready-for-market product. Scrum has different phases: Initiation, Planning and estimation, Implementation, Reviewing and Releasing.
