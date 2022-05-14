@@ -21,11 +21,21 @@ Developers who want the freedom to make decisions thrive in scrum teams. Team mo
 Each sprint produces a product that is ready for market even though the project is ongoing. The highest priority requirements are addressed first so a high-quality, low-risk product can be on the market.
 The incremental process shortens the time to market by about 30 percent to 40 percent. Because the product owner is part of the scrum team, requirements can be delivered as they are needed; Split time into short fixed length iterations with potentially code demonstrated after each iteration.
 2. Individuals and interactions over processes and tools.
-    Working software over comprehensive documentation.
+    Working software ovser comprehensive documentation.
     Customer collaboration over contract negotiation.
     Responding to change over following a plan.
 - DAY  3
-im = Image.open('image.jpg')  
-im = im.resize((weight, height)) 
+from PIL import Image
+import os, sys
+path = ('C:\Users\Amara Obiesie\Pictures\2018-03')
+def resize():
+for item in os.listdir(path):
+    if os.path.isfile(picture):
+        im = Image.open(picture)
+        f, e = os.path.splitext(picture)
+        imResize = im.resize((100,100), Image.ANTIALIAS)
+        imResize.save(f + ' resized.jpg', 'JPEG', quality=100)
+
+resize() 
 
  
