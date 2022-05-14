@@ -8,8 +8,11 @@ A product owner makes a prioritized wish list known as a product backlog. The sc
 - It gives room for flexibility because project focus and goals can change with evolving business goals.
 - Reviewing each sprint before moving to the next sprint speeds testing throughout development.
 
+
+
+
 # AGILE MANIFESTO
-Individuals and interactions over processes and tools
-Working software over comprehensive documentation
-Customer collaboration over contract negotiation
-Responding to change over following a plan
+- Individuals and interactions over processes and tools
+- Working software over comprehensive documentation
+- Customer collaboration over contract negotiation
+- Responding to change over following a plan
