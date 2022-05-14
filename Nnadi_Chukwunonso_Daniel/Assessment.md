@@ -31,15 +31,17 @@ Also, in session layer checkpoints are setup during data transfer, if the sessio
 # Scrum 
 SCRUM is a light weight agile process tool used by software developers that split organization into  smaller team and split work into a list of concrete deliverables. 
 
-Some of the benefit are: 
-
-1.  
-
-
-
-
-
 INDIVIDUAL INTERACTION OVER PROCESS AND TOOLS 
 WORKING SOFTWARE OVER COMPREHENSIVE DOCUMENTATION 
 CUSTOMER COLLABORATION OVER CONTRACT NEGOTIATION 
 RESPONDING TO CHANGE OVER FOLLOWING A PLAN 
+
+
+# python
+from PIL import Image
+basewidth = 300
+picx = Image.open('Downloads\ncdc2')
+widthpercent= (basewidth / float(picx.size[0]))
+height = int((float(picx.size[1]) * float(widthpercent)))
+picx = picx.resize((basewidth, height), Image.ANTIALIAS)
+picx.save('Downloads\ncdc3')
